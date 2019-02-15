@@ -1,0 +1,120 @@
+:root {
+  --wrapper: "";
+}
+* {
+  box-sizing: border-box;
+}
+/* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+/* box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08) */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+.hero {
+  height: 130vh;
+}
+
+/* .Wrapper cover */
+.wrapper {
+  position: relative;
+}
+.wrapper img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Content */
+.content {
+  position: relative;
+  z-index: 2;
+  width: 970px;
+  margin: 0 auto;
+  height: 100%;
+}
+/* Content > Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 155px;
+}
+header img {
+  margin: 60px 0 0 20px;
+}
+header .slogan {
+  margin-top: 80px;
+}
+.slogan p {
+  background-color: #840400;
+  color: #fff;
+  font-size: 1.4em;
+  padding: 6px 2px;
+  margin: 0;
+}
+
+/* Content > Main */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .menu {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.menu ul.links {
+  padding: 0;
+  padding-top: 1.2em;
+  margin: 0;
+  margin-bottom: 110px;
+  list-style-type: none;
+}
+.menu ul.links li {
+  background-color: #000;
+}
+.menu ul.links li:hover a {
+  color: #fff;
+}
+.menu ul.links a {
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  font-size: 0.9em;
+  padding: 0.8em;
+  margin-bottom: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+.menu ul.social-media {
+  padding: 0 0.4em;
+  margin: 0;
+  list-style-type: none;
+  max-width: 120px;
+}
+.menu ul.social-media li {
+  display: inline-block;
+}
+
+main .my-site-word {
+  padding: 1.2em 2.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+main .my-site-word img {
+  width: 480px;
+}
+
+/* Footer */
+footer {
+  margin-top: 1.4em;
+  padding: 0.6em 0.8em;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  font-size: 0.8em;
+  color: #fff;
+}
